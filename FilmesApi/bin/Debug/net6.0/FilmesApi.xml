@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmesApi</name>
+    </assembly>
+    <members>
+        <member name="M:FilmesApi.Controllers.FilmeController.AdicionaFilem(FilmesApi.Data.DTOS.FilmeDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="filmeDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="T:FilmesApi.Migrations.CriandoTabelaBanco">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.CriandoTabelaBanco.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.CriandoTabelaBanco.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.CriandoTabelaBanco.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.EnderecoeCinema">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.EnderecoeCinema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.EnderecoeCinema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.EnderecoeCinema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.RelacionamentoSessaoeFilme">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeFilme.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeFilme.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeFilme.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.RelacionamentoSessaoeCinema">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.RelacionamentoSessaoeCinema2">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.RelacionamentoSessaoeCinema3">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.RelacionamentoSessaoeCinema3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.FilmeeCinema">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.FilmeeCinema2">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.FilmeeCinema3">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.FilmeeCinema4">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema4.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema4.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.FilmeeCinema4.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesApi.Migrations.DeleteRestrict">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.DeleteRestrict.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.DeleteRestrict.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesApi.Migrations.DeleteRestrict.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
